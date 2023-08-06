@@ -181,9 +181,9 @@ appBody.addEventListener("mousemove", (e) => {
 
 window.addEventListener("DOMContentLoaded", () => {
   setInterval(() => {
-    let count = 10;
+    let count = 50;
     while (count >= 0) {
-      stickerEffect(getRandomNum(innerWidth), getRandomNum(innerHeight));
+      stickerEffect(getRandomNum(innerWidth), getRandomNum(innerHeight + 200));
       count--;
     }
   }, 1000);
